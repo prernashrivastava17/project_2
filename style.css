@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:wght@300;600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Ubuntu:wght@300;700&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.max-width {
+  width: 1075px;
+  padding: 0 80px;
+}
+
+.nav-bar {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.nav-bar .max-width {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar .logo a {
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav-bar .logo a span {
+  color: crimson;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.nav-bar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-bar .menu li a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 0px;
+  transition: color 0.3s;
+}
+
+.nav-bar .menu li a:hover {
+  color: crimson;
+}
+
+.nav-bar .menu {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.nav-bar .max-width .menu-items {
+  display: flex;
+  width: 100%;
+}
+
+/* menu btn */
+.nav-bar .menu li i {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+/* home styling */
+.home {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+
+}
+
+.nav-bar .home .max-width {
+  display: flex;
+}
+
+.home .max-width {
+  height: 100%;
+}
+
+.home .max-width .info {
+  margin: 200px 0;
+  padding: 0 8%;
+}
+
+.home .info .text-1 {
+  font-size: 27px;
+}
+
+.home .info .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.home .info .text-3 {
+  font-size: 30px;
+
+}
+
+.home .info .text-3 span {
+  font-size: 38px;
+  color: crimson;
+  font-weight: 600;
+
+}
+
+.home .info .hire-btn a {
+  background: crimson;
+  font-size: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+
+}
+
+.home .info .hire-btn {
+  margin-top: 30px;
+
+}
+
+.home .info .hire-btn a:hover {
+  color: crimson;
+  background: none;
+}
+
+/* about styling */
+.about{
+  display: flex;
+  width: auto;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  
+}
+.about .max-width .about-info span .about-heading{
+
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+}
